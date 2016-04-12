@@ -14,8 +14,8 @@ func Fsm_elevator() Elevator {
 func Fsm_floor() int {
 	return elevator.Floor
 }
-func Fsm_direction() int {
-	return int(elevator.Dir)
+func Fsm_direction() Direction {
+	return (elevator.Dir)
 }
 func Fsm_printstatus() {
 	for {
